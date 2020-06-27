@@ -1,0 +1,87 @@
+.backGrountImage{
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+.mainImage{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.learnMore{
+    position: absolute;
+    margin-top: -600px !important;
+    margin-left: 770px !important;
+    z-index: 6;
+}
+.titleName{
+    color: white;
+}
+.learnMoreBtn{
+    background-color: #F7BC13 !important;
+    color: black !important;
+    width: 80% !important;
+    border-radius: 5% !important;
+}
+.nav-bar{
+    height: 80px !important;
+    width: 100% !important;
+    background-color: #F7BC13 !important;
+    box-shadow: 0 8px 6px -6px black;
+}
+.navBrand{
+    margin-left: 30px !important;
+    color: black !important;
+}
+.sideNavBar{
+    background-color: #AAF0D1 ;
+    height: 1250px !important;
+}
+.sideNavBar2{
+    background: rgba(19, 192, 229, 0.47);
+    height: 1250px !important;
+}
+.mainContent{
+    margin-top: 5px !important;
+}
+.sidenavContent{
+    padding: 2% !important;
+    margin-top: 20px;
+    margin-left: 30px !important;
+}
+.sideNavContentText{
+    margin-top: 40px !important;
+    margin-left: 30px !important;
+    
+}
+.textContent{
+    font-size: large;
+    margin-left: 15px;
+    padding: 2% !important;
+}
+.dailyUpdateRow{
+    margin-top: 20px !important;
+}
+.casersCard{
+    background: rgba(255, 189, 0, 0.5) !important;
+    border-radius: 20px !important;
+    padding: 2% !important;
+}
+.deathsCard{
+    border-radius: 20px !important;
+    background: rgba(255, 0, 0, 0.5) !important;
+    padding: 2% !important;
+}
+.recoveriesCard{
+    border-radius: 20px !important;
+    background: rgba(112, 255, 0, 0.5) !important;
+    padding: 2% !important;
+}
+.dailyValues{
+    text-align: center;
+}
+.sideALink,.sideALink:hover{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}

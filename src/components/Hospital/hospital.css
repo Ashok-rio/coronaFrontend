@@ -1,0 +1,152 @@
+.hospitalImage{
+    width: 100%;
+    height: 400px;
+}
+.hospitalImage:hover{
+    opacity: 0.3;
+    background-color: black;
+}
+.hospitalImageAll{
+    width: 80%;
+    height: 300px;
+}
+.hospitalImageAll:hover{
+    opacity: 0.3;
+    background-color: black;
+}
+.image{
+    position: relative;
+    width: 100%;
+}
+.imageAll{
+    position: relative;
+    width: 100%;
+}
+.imageText{
+    display: none;
+}
+.imageTextAll{
+    display: none;
+}
+
+.image:hover .imageText{
+    display: block;
+    position: absolute;
+    font-size: xx-large;
+    text-align: center;
+    top:100px;
+    left: 250px;
+    color: black;
+    font-weight: 600;
+    z-index: 10;
+}
+.imageAll:hover .imageTextAll{
+    display: block;
+    position: absolute;
+    font-size: large;
+    text-align: center;
+    top:100px;
+    left: 80px;
+    color: black;
+    font-weight: 600;
+    z-index: 10;
+}
+.xCancel{
+    display: none !important;
+}
+.eEdit{
+    display: none !important;
+}
+.imageAll:hover .xCancel{
+    display: block !important;
+    background-color: red !important;
+    position: absolute;
+    font-size: large;
+    text-align: center;
+    width: 40px;
+    left: 260px;
+    top:-10px;
+    padding: 2%;
+    color: white;
+    border-radius: 50% !important;
+}
+.imageAll:hover .eEdit{
+    display: block !important;
+    background-color: yellow !important;
+    position: absolute;
+    font-size: large;
+    text-align: center;
+    width: 40px;
+    left: 30px;
+    top:15px;
+    padding: 2%;
+    color: white;
+    border-radius: 50% !important;
+}
+.yourHospital{
+    border: none !important;
+}
+.yourText{
+    font-size: x-large;
+    font-weight: 600;
+}
+.createHospital{
+    background-color: #AAF0D1 ;
+    padding: 2% !important;
+}
+.createHospital2{
+    background-color: #AAF0D1 ;
+    padding: 5% !important;
+    height: 700px;
+}
+.createHospital3{
+    background-color: #AAF0D1 ;
+    padding: 2% !important;
+    height: 700px;
+}
+.createHospital4{
+    background-color: #AAF0D1 ;
+    padding: 2% !important;
+    height: 700px;
+}
+.createHospital5{
+    background-color: grey ;
+    padding: 2% !important;
+    font-weight: 600 !important;
+}
+.createHosInput{
+    width: 300px !important;
+}
+.addHosBtn{
+    width: 83% !important;
+    background-color: #18A4E0 !important;
+    color: black !important;
+    padding: 2% !important;
+}
+.viewHospital{
+    padding: 5% !important;
+    background-color: grey !important;
+    font-size: large !important;
+    font-weight: 600 !important;
+}
+.viewHosRow{
+    margin-top: 30px !important;
+    margin-bottom: 30px !important;
+}
+.createHosInputId{
+    display: none !important;
+}
+.reportCard{
+    font-size: large !important;
+    font-weight: 600 !important;
+    width: 50rem !important;
+    height: 65px !important;
+    margin-top: 20px !important;
+}
+.syntompsRow{
+    background-color: white !important;
+    color: black !important;
+    padding: 4% !important;
+    border-radius: 15px !important;
+    font-weight: 600;
+}

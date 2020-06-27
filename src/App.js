@@ -1,26 +1,32 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import "react-toastify/dist/ReactToastify.css";
+import Header from './components/Header/Header';
+import Register from "./components/Profile/Register";
+import Login from "./components/Profile/Login";
 
-function App() {
+function App(){
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Route exact path="/" component={Header} />
+      <Route exact path="/register" component={Register} />
+      <Route exact path="/login" component={Login} />
+      <Route exact path="/addHospital" component={Header} />
+      <Route exact path="/viewHospital" component={Header} />
+      <Route exact path="/viewHospital/:id" component={Header} />
+      <Route exact path="/editHospital/:id" component={Header} />
+      <Route exact path="/addCenter" component={Header} />
+      <Route exact path="/viewCenter" component={Header} />
+      <Route exact path="/viewCenter/:id" component={Header} />
+      <Route exact path="/editCenter/:id" component={Header} />
+      <Route exact path="/daily" component={Header} />
+      <Route exact path="/report" component={Header} />
+      <Route exact path="/report/:id" component={Header} />
+      <Route exact path="/profile" component={Header} />
+      <Route exact path="/testYourSelf" component={Header} />
+      <Route exact path="/preventions" component={Header} />
+    </Router>
   );
-}
+};
 
 export default App;

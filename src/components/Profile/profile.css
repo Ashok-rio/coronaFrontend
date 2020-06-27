@@ -1,0 +1,49 @@
+.backGrountImageReg{
+    width: 100% !important;
+    height: 881px !important;
+}
+.registerFormColom{
+    background-color: #AAF0D1 ;
+    padding: 0 !important;
+}
+.registerRow{
+    background-color: #AAF0D1 ;
+}
+.regColom{
+    background-color: #AAF0D1 ;
+    margin-top: 1px;
+    margin-left: 0px !important;
+}
+.imageReg{
+    margin-left: -40px;
+}
+.regInput{
+    margin-left: 70px !important;
+    width: 400px !important;
+}
+.colomReg{
+    margin-top: 100px;
+    margin-left: 40px;
+}
+.registerForm{
+    margin-left: 70px ;
+}
+.REgForm{
+    margin-top: 40px;
+}
+.regInputBtn{
+    margin-left: 70px !important;
+    width: 400px !important;
+    background-color: #F7BC13 !important;
+    border: none !important;
+    color: black !important;
+}
+.registerForm2{
+    margin-left: 170px ;
+    font-weight: 600;
+}
+.loginLInk,.loginLInk:hover{
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+}
